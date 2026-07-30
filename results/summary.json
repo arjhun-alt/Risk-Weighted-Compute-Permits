@@ -1,0 +1,38 @@
+{
+  "study_scope": [
+    "Implementation Verification",
+    "Behavioural Extension"
+  ],
+  "formal_model_computation": true,
+  "implementation_verification": {
+    "points": 12,
+    "developers_per_run": 400,
+    "seeds": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "max_relative_difference": 0.024012383783031128,
+    "runtime_seconds": 0.22407170798396692
+  },
+  "behavioural_extension": {
+    "points": 21,
+    "developers_per_run": 400,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "binary_break_even": 0.5238095238095237,
+    "marginal_threshold": 0.2857142857142857,
+    "runtime_seconds": 0.9020114580052905
+  }
+}

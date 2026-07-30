@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk-weighted-compute-permits"
+version = "1.0.0"
+description = "Reproduction code for two formal-model experiments on joint audit hiddenness"
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+  "mesa>=3.5,<3.6",
+  "networkx>=3.4,<4",
+  "numpy>=2.4,<3",
+  "matplotlib>=3.10,<4",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyterlab>=4.4,<5"]
+
+[tool.setuptools]
+py-modules = ["experiments"]

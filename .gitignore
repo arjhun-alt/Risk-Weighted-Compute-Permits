@@ -1,0 +1,8 @@
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
